@@ -4,9 +4,8 @@ var chocolateBars = ["snickers", "hundred grand", "kitkat", "skittles"]
 
 function addElementToBeginningOfArray(array, element) {
 
-
   var myArrayAgain = [1, 2, 3, 4];
-  myArrayAgain = [5, ...myArrayAgain, + 1 ]
+  myArrayAgain = [5, ...myArrayAgain]
   return myArrayAgain;
 }
 
