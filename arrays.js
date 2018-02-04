@@ -8,7 +8,6 @@ var myArrayAgain = [element, array[0]]
 }
 
 function destructivelyAddElementToBeginningOfArray(array, element) {
-
   array.unshift(element);
   return array;
 }
@@ -24,15 +23,15 @@ function destructivelyAddElementToEndOfArray() {
   return fruits
 }
 
-function accessElementInArray() {
+function accessElementInArray(array, index) {
 
-  return chocolateBars[2];
+  return array[2];
 }
 
-function destructivelyRemoveElementFromBeginningOfArray() {
+function destructivelyRemoveElementFromBeginningOfArray(array, element) {
 
-  chocolateBars.shift();
-  return chocolateBars;
+  array.shift();
+  return array;
 }
 
 function removeElementFromBeginningOfArray() {
