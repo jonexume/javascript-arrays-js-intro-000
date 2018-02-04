@@ -9,8 +9,9 @@ function addElementToBeginningOfArray(array, element) {
 }
 
 function destructivelyAddElementToBeginningOfArray(array, element) {
-  chocolateBars = ["100grand", ...chocolateBars];
-  return chocolateBars;
+  var myArrayAgain = [1, 2, 3, 4];
+  myArrayAgain = [5, ...myArrayAgain]
+  return myArrayAgain;
 }
 
 function addElementToEndOfArray() {
