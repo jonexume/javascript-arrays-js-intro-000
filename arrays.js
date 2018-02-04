@@ -12,15 +12,15 @@ function destructivelyAddElementToBeginningOfArray(array, element) {
   return array;
 }
 
-function addElementToEndOfArray() {
-  chocolateBars.push("almondjoy");
-  return chocolateBars;
+function addElementToEndOfArray(array, element) {
+  array.push(element);
+  return array;
 }
 
-function destructivelyAddElementToEndOfArray() {
-  var fruits = ["apples", "oranges", "bananas", "tomatoes"]
-  fruits.push("tangerines")
-  return fruits
+function destructivelyAddElementToEndOfArray(array, element) {
+  
+  array.push(element)
+  return array;
 }
 
 function accessElementInArray(array, index) {
